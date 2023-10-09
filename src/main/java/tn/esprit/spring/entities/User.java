@@ -89,5 +89,6 @@ public class User implements Serializable {
 		this.role = role;
 	}
 	//malla jaw
+	//malla ja 2
 
 }
