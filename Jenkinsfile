@@ -8,7 +8,7 @@ pipeline {
                 url: 'https://github.com/youssefklila/timesheet-devops.git'
             }
         }
-    }
+   
     
       stage('Nettoyage et compilation avec Maven') {
             steps {
@@ -20,4 +20,5 @@ pipeline {
                 // Etape de sonar
             }
         }
+    }
 }
