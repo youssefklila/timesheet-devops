@@ -20,5 +20,10 @@ pipeline {
                 // Etape de sonar
             }
         }
+        stage('MVN SONARQUBE'){
+        steps {
+            sh "mvn sonar:sonar -Dsonar.login=e10380a5a72c7aa2d861f345638de9e85dee25ad"
+        }
+        }
     }
 }
